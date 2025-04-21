@@ -1,21 +1,14 @@
+
 /* I did like a bit of dark theme to it not too black not too light either. The primary color is brown and i did a monochromatic scheme.*/
-styled-link {
-    text-decoration: none; 
-    font-size: 18px;
-    font-weight: bold;
-    color: #1A237E; 
-    padding: 10px 15px;
-    border: 2px solid #1A237E; 
-    border-radius: 8px; 
-    background: #E3E3FF; 
-    transition: all 0.3s ease-in-out;
-    display: inline-block;
+.navbarlink {
+  text-decoration: none;
+  color: #E0C097;
+  font-weight: bold;
 }
 /*Added the Hover effect so it could change color when hovered */
-.styled-link:hover {
-    background: ; 
-    color: white;
-    border-color: ; 
+.navbarlink:hover {
+  text-decoration: underline;
+  color: #B85C38;         
 }
 /* the body is dark brown */
 body {
