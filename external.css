@@ -21,7 +21,28 @@ styled-link {
 body {
     background-color:#2D2424;
 }
-/*Cut an image and aligned it to the righgt and and gave it  a space from the right with 20 px */
+/*Cut an image and aligned it to the righgt and and gave it a space from the right with 20 px */
 .logo-container{ text-align:right; margin-top: 20 px;}
 {.logo-container img{width :200px;height: auto;
 }
+/*I put them side by side with video row without it, the videos would be like vertical and used flexbox style which is the wrap*/
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
