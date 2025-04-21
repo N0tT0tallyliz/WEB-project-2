@@ -1,14 +1,16 @@
-
-/* I did like a bit of dark theme to it not too black not too light either. The primary color is brown and i did a monochromatic scheme.*/
-.navbarlink {
+/*  */
+.navbar {
+  text-align:center;
+  margin-top:10px;}
+  .navbarlink{
   text-decoration: none;
   color: #E0C097;
   font-weight: bold;
+   margin right:20px;
 }
-/*Added the Hover effect so it could change color when hovered */
+/*Added the Hover effect so it could change color when hovered and spaced it away from the margin and used my neutral color  */
 .navbarlink:hover {
-  text-decoration: underline;
-  color: #B85C38;         
+  text-decoration: underline;      
 }
 /* the body is dark brown */
 body {
