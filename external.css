@@ -32,6 +32,12 @@ body {
     margin: 20px 0;
     flex-wrap: wrap;
 }
+/* Instead of typing margin left or bottom:70% i just put a form  in the css and in the html so it linked it to this css*/
+.form-input {
+    display: block;
+    margin-left: 70%;
+    margin-bottom: 10px;
+}
 
 
 
