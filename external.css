@@ -1,7 +1,4 @@
-/* I did like a bit of dark theme to it not too black not too light either. The primary color is brown and i did a monochromatic scheme
-  And why i choosed brown because its represent in my opinion "LAND" which treaties agree on to share the land and i researched brown
-from color psychology it said it represent stability,grounding and comfort. Which basically, sums up treaty cause treaty where meant to 
-peace OR comfort. */
+/* I did like a bit of dark theme to it not too black not too light either. The primary color is brown and i did a monochromatic scheme.*/
 styled-link {
     text-decoration: none; 
     font-size: 18px;
@@ -14,16 +11,17 @@ styled-link {
     transition: all 0.3s ease-in-out;
     display: inline-block;
 }
-/*Added the Hover effect */
+/*Added the Hover effect so it could change color when hovered */
 .styled-link:hover {
-    background: #1A237E; 
+    background: ; 
     color: white;
-    border-color: #FFD700; 
+    border-color: ; 
 }
+/* the body is dark brown */
 body {
-    background-color: bisque;
+    background-color:#2D2424;
 }
+/*Cut an image and aligned it to the righgt and and gave it  a space from the right with 20 px */
 .logo-container{ text-align:right; margin-top: 20 px;}
-.logo-container img{width :200px;height: auto;
-
+{.logo-container img{width :200px;height: auto;
 }
