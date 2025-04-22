@@ -1,7 +1,7 @@
-/* THis is the navbar postion i aligned to the center */
+/* THis is the navbar postion i aligned to the left */
 .navbar {
-  text-align:center;
-  margin-top:10px;}
+  text-align:left;
+  }
 /* while this, is the navbar design, same color, add space inside the box and create the box border */
   .navbarlink{
   text-decoration: none;
