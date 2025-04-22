@@ -38,23 +38,6 @@ body {
   flex: 1;
   text-align: left;
 }
-form-section {
-  flex: 1;
-  background-color: #5C3D2E;
-  padding: 20px;
-  border-radius: 10px;
-  max-width: 300px;
-}
-
-input {
-  width: 100%;
-  padding: 8px;
-  margin-top: 5px;
-  margin-bottom: 15px;
-  background-color: #2D2424;
-  border: 1px solid #E0C097;
-  color: #E0C097;
-}
 
 
 
