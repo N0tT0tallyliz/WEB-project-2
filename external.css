@@ -1,14 +1,18 @@
-/*  */
+/* THis is the navbar postion i aligned to the center */
 .navbar {
   text-align:center;
   margin-top:10px;}
+/* while this, is the navbar design, same color, add space inside the box and create the box border */
   .navbarlink{
   text-decoration: none;
   color: #E0C097;
   font-weight: bold;
-   margin right:20px;
+   margin-right:20px;
+    padding: 10px 20px;
+  border: 2px solid #E0C097; 
+  border-radius: 10px; 
 }
-/*Added the Hover effect so it could change color when hovered and spaced it away from the margin and used my neutral color  */
+/*Added the Hover effect so when hovered its underlined and spaced it away from the margin and used my neutral color  */
 .navbarlink:hover {
   text-decoration: underline;      
 }
@@ -17,9 +21,10 @@ body {
     background-color:#2D2424;
   
 }
-/*Cut an image and aligned it to the righgt and and gave it a space from the right with 20 px */
-.logo-container{ text-align:right; margin-top: 20 px;}
+/*Cut an image and aligned it to the left and and gave it a space from the right with 20 px */
+.logo-container{ text-align:left; margin-top: 10 px;}
 {.logo-container img{width :200px;height: auto;
+  flex:1;                                     
 }
 /*I put them side by side with video row without it, the videos would be like vertical and used flexbox style which is the wrap*/
     display: flex;
@@ -34,18 +39,3 @@ body {
     margin-left: 70%;
     margin-bottom: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
