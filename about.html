@@ -14,35 +14,26 @@
       padding: 0;
       font-size:18px;
     }
-    /**/
+    /*The haeder is centered, the text is bold,made the header bigger*/
     header {
       background-color: #2D2424;
       color: #E0C097;
       text-align: center;
       font-size: 28px;
       font-weight: bold;
-      padding: 20px;
     }
+    /*this header is a bit smaller than the first one and same color*/
     h2 {
       color: #E0C097;
       font-size: 24px;
     }
-
+/*styles the main paragraph of the text,added space between lines to be able to read easily and didnt make the paragraph to wide*/
     p {
       line-height: 1.6;
       font-size: 18px;
       max-width: 800px;
     }
-    figure {
-      width: 200px;
-      text-align: center;
-    }
-
-    figure img {
-      width: 100%;
-      border-radius: 10px;
-      box-shadow: 2px 2px 8px black;
-    }
+    /*Style sthe bottom of the page, adds space inside the footer,centered it and add space above the footer.*/
     footer {
       background-color:#B85C38;
       color:#E0C097;
@@ -56,23 +47,25 @@
   <header>ABOUT US-THE TREATY INFO HUB</header>
   <main>
     <section>
+      <!--Explains who made this and why-->
       <h2>Who We Are</h2>
-      <p>This website was created by students who care about truth, education, and Indigenous rights. It's ffor anyone who wants to understand Treaty 1 and how it shaped people's lives in Canada.</p>
+      <p>This website was created by students like me who care about truth, education, and Indigenous rights. It's ffor anyone who wants to understand Treaty 1 and how it shaped people's lives in Canada.</p>
     </section>
-
+<!--the goal of the website-->
     <section>
       <h2>Our Purpose</h2>
       <p>We created this site to make Treaty 1 history easy to understand for grades 9–12 . Treaties are not just history,they are agreements that still matter and created comfort like the color brown. Our goal is to show everyone about the past and present things that was part of Treaty 1 .</p>
     </section>
  <form>
    <h2>Contact Us</h2>
+   <!--This is the form i choose,people can send their phone number to contact us.There's an input boxmust be 10 digits tho.There's a button to send the form -->
      <form action="submit-contact.php" method="post">
-  <label for="phone">Enter Your Contact Number:</label><br>
+  <label for="phone">Enter Your Contact Number,for more details about treaty 1:</label><br>
   <input type="tel" id="phone" name="phone" required pattern="[0-9]{10}" placeholder="e.g., 2041234567"><br><br>
   <button type="submit">Submit</button>
 </form>
   <footer>
-    © 2025 Treaty 1 Info Hub | Made for Learning and Awareness<br/>
+    © 2025 Treaty 1 Info Hub | Made for Learning.<br/>
   </footer>
 </body>
 </html>
